@@ -5,5 +5,5 @@ services:
      context: .
      dockerfile: otrs.Dockerfile
     ports:
-     - 8105:80
+     - 8100:80
 
