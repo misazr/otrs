@@ -1,0 +1,9 @@
+version: '2'
+services:
+  otrs:
+    build:
+     context: .
+     dockerfile: otrs.Dockerfile
+    ports:
+     - 8105:80
+
